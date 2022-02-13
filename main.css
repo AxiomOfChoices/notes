@@ -1,0 +1,27 @@
+@font-face {
+    font-family: 'Gyre';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Gyre'), url('./texgyreadventor-bold.otf') format('truetype');
+}
+
+html,body,main{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 4vmin;
+    font-family: 'Gyre';
+}
+
+main{
+    display:grid;
+    place-items: center;
+}
+
+a{
+    color:#179865
+}
