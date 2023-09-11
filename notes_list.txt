@@ -1,7 +1,1 @@
-Comp 424 Artifical Intelligence
-Comp 451 Machine Learning
-Comp 553 Game Theory
-Math 455 Honors Analysis 4
-Math 457 Honors Algebra 4
-Math 577 Geometry and Topology 2
-Math 589 Advanced Probability 2
+Math 595 Geometric Analysis
