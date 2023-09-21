@@ -5,7 +5,7 @@ window.onload = async (ev) => {
   for (const line of text.split('\n')) {
     if (line === "") continue;
     const link = document.createElement("li");
-    link.innerHTML = `<a href='${line}.pdf'>${line.replace(/\([\d\_]*\)/g,"").toUpperCase()}</a>`;
+    link.innerHTML = `<a href='${line}.pdf'>${line.replace(/\([\d-]*\)/g,"").toUpperCase()}</a>`;
     list.appendChild(link);
   }
 };
